@@ -1,0 +1,99 @@
+/* Estilo para corpo da página */
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('imagens/celeiro-mineiro-moveis-rusticos-salao-cabeleireiro-inspiracao\ \(2\).jpg');
+    background-color: #f8f4e3; /* Cor de fundo creme */
+    color: #3e3e3e; /* Cor do texto principal */
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para cabeçalho */
+header {
+    background-color: #8b572a; /* Marrom escuro */
+    color: #ffffff; /* Cor do texto no cabeçalho */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilo para títulos */
+h1, h2, h3 {
+    color: #8b572a; /* Marrom escuro para títulos */
+    text-align: center;
+}
+
+/* Estilo para contêiner principal */
+.container {
+    
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff; /* Fundo branco para o conteúdo */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+.container img {
+    
+    width: 150px; /* Largura desejada para a imagem */
+    height: auto; /* Altura ajustada automaticamente para manter a proporção */
+    margin-right: 20px; /* Espaçamento à direita do título */
+}
+
+/* Estilo para botões */
+button {
+    background-color: #8b572a; /* Marrom escuro para botões */
+    color: #ffffff; /* Cor do texto nos botões */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #613d1f; /* Marrom mais escuro ao passar o mouse */
+}
+
+/* Estilo para links */
+a {
+    color: #8b572a; /* Marrom escuro para links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline; /* Sublinhado ao passar o mouse */
+}
+
+/* Estilo para formulários */
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #8b572a; /* Marrom escuro para rótulos */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+input[type="time"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #8b572a; /* Borda marrom */
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+/* Estilo para seção de rodapé */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #8b572a; /* Marrom escuro */
+    color: #ffffff; /* Cor do texto no rodapé */
+}
